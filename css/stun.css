@@ -1,0 +1,144 @@
+ 
+body{
+    margin: 0px;
+}
+.navbar{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.nav_menu ul{
+    display: flex;
+    
+}
+.nav_menu ul li{
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+}
+.nav_menu ul li a{
+    text-decoration: none;
+    color: #cccacf;
+    font-family: 'Poppins', sans-serif;
+}
+.nav_menu ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.account button{
+    margin-right: 30px;
+    background-color: #FFD8DB;
+    color: #3925eec0;
+    border-style: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.middle{
+    /* border: 3px solid red; */
+    display: flex;
+    margin-left: 110px;
+    justify-content: space-between;
+    
+    
+}
+.cards{
+    display: flex;
+}
+
+.middle div h1{
+    font-size: 300%;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+.middle div p{
+    color: #2f3030a4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.new-account{
+    display: flex;
+    margin-bottom: 50px;
+}
+.new-account button{
+    background-color: #5243C0;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 25px;
+    font-size: small;
+    font-weight: 600; 
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.new-account img{
+    margin-left: 9px;
+    height: 50px;
+}
+.cards{
+    /* border: 1px solid greenyellow; */
+    background-color: rgba(218, 218, 214, 0.137);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    
+}
+
+.cards img{
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cards p{
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .cards p+img{
+    margin-left: 10vh;
+} */
+
+.cards:hover{
+    background-color: white;
+    zoom: 1%;
+}
+
+.cards img:hover{
+    width: 28px;
+    height: 28px;
+    background-image: url('/assets/tick-blue.png');
+}
+
+hr{
+    /* color: #FED7DA; */
+    width: 20px;
+    height: 7px;
+    border-radius: 5px;
+    /* background-color: #FED7DA; */
+    border-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.mainimg img{
+    margin-right: 50px;
+   
+}
+
+
+
